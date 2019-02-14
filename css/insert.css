@@ -1,0 +1,23 @@
+.text
+{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 28px;
+	color: maroon;
+	
+}
+.loginlinks > a
+{
+	float: right;
+	color:maroon; 
+    text-decoration: none;
+    border:2px solid maroon;
+    background-color:gold;
+
+}
+table
+{
+	border:2px solid maroon;
+	color: maroon;
+	background-color: gold;
+}

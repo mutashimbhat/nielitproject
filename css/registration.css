@@ -1,0 +1,265 @@
+*
+{
+	box-sizing: border-box;
+	margin-top: 0;
+
+}
+body
+{
+	background-color: grey;
+}
+.cont
+{
+	width:350px;
+	height:380px;
+	position:absolute;
+	background-color:orange;
+	left:50%;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: -175px;
+	text-align: center;
+	padding:20px;
+	padding-top: 60px;
+
+	border:2px solid maroon;
+	border-radius: 12px;
+	
+	box-shadow: 0px 0px 36px 20px yellow;
+	opacity: 0.98;
+}
+#addbook
+{
+	width:350px;
+	height:450px;
+	position:absolute;
+	background-color:orange;
+	left:50%;
+	top: 50%;
+	margin-top: -140px;
+	margin-left: -175px;
+	text-align: center;
+	padding:20px;
+	padding-top: 60px;
+
+	border:2px solid maroon;
+	border-top-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+	border-bottom-right-radius: 35px;
+	box-shadow: 0px 0px 36px 20px yellow;
+	opacity: 0.98;
+}
+.regcont
+{
+	width: 500px;
+	height:1020px;
+	background-color: orange;
+	padding: 110px 50px;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -130px;
+	margin-left: -250px;
+	border:2px solid maroon;
+	border-top-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+	border-bottom-right-radius: 35px;
+	box-shadow: 0px 0px 36px 20px yellow;
+	text-align: left;
+}
+label
+{
+	line-height: 1.4em;
+	color: maroon;
+	font-size:1.1em;
+	font-weight: bold;
+
+	margin-top:10px;
+}
+input
+{
+	outline: none;
+	line-height: 1.3em;
+	text-align: left;
+	border-radius: 10px;
+	font-size: 1.1em;
+	padding-left: 20px;
+
+	border-bottom: 2px solid maroon;
+	border-right:2px solid maroon;
+
+
+	margin-bottom: 6px;
+	
+}
+input[type="text"] , input[type="password"]
+{ 
+	width:80%;
+	transition: .25s;
+	margin-bottom: 15px;
+	
+
+}
+input[type="text"]:hover , input[type="password"]:hover
+{
+	width: 100%;
+	border-top:2px solid aqua;
+	border-left: 2px solid teal;
+	border-bottom: 2px solid teal;
+	border-right:2px solid aqua;
+	line-height: 1.5em;
+	background:gold ;
+	cursor: pointer;
+}
+p > span
+{
+	color:red;
+}
+p
+{
+	text-align: center;
+}	
+
+.regcont > img 
+{
+	border-radius:50%;
+	border:2px solid maroon;
+	position:absolute;
+	top:-60px;
+	right:50%;
+	margin-right: -50px;
+	box-shadow: 0px 0px 8px 3px yellow;
+
+    background-color:orange;
+	
+}
+.cont >img
+{
+	border-radius:50%;
+	border:2px solid maroon;
+	position: absolute;
+	top:-40px;
+	margin-left:-40px;
+	background: orange;
+}
+input[type="date"]
+{
+	width:80%;
+	margin-bottom: 15px;
+	margin-top: 8px;
+	transition: .25s;
+
+}
+input[type="date"]:hover
+{
+	width: 100%;
+	text-align: center;
+	border-top:2px solid aqua;
+	border-left: 2px solid teal;
+	border-bottom: 2px solid teal;
+	border-right:2px solid aqua;
+	line-height: 1.5em;
+	background:gold ;
+	cursor: pointer;
+
+}
+
+input[value="science"]
+{
+	margin-left:30px;
+	margin-top:10px;
+	margin-bottom: 15px;
+
+}
+input[value="male"]
+{
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+ label::after
+ {
+ 	content:'*';
+ 	color: red;
+ }
+ span
+ {
+ 	line-height: 1.4em;
+	color: maroon;
+	font-size:1.3em;
+	font-weight: bold;
+
+	margin-top: 10px;
+}
+input[type="submit"]
+{
+	
+	position: absolute;
+	left:50%;
+	width: 140px;
+	padding-top: 3px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 1px;
+	text-align: center;
+	margin-left: -58px;
+	margin-top: 20px;
+ }
+input[type="submit"]:hover
+{
+	background-color: maroon;
+	color:white;
+}
+h2
+{
+	text-align: center;
+	margin-bottom: 10px;
+	color: maroon;
+}
+.link >a
+{
+	position: absolute;
+	margin-top: 80px;
+	line-height: 1.2em;
+	margin-bottom: 7px;
+	text-decoration: none;
+	font-size:1.25em;
+	color:maroon;
+
+}
+.link >a:hover
+{
+   color:white;
+}
+.links
+ {
+ 	position: absolute;
+ 	bottom: 10px;
+
+ 	margin-left: 76px;
+
+ }
+.links > a
+{
+	color: maroon;
+	font-weight: bold;
+	line-height: 1.1em;
+	text-decoration: none;
+	text-align:left;
+
+}
+ .links > a:hover
+ {
+ 	color:white;
+ }
+.text
+{
+	text-align: center;
+	font-size: 28px;
+	color: maroon;
+}
+.main
+{
+	position: relative;
+	margin-top: 240px;
+}
